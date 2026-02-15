@@ -1,0 +1,30 @@
+name: xianqungongshou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianqungongshou
+        env:
+          yt81: ${{ secrets.yt81 }}
+        run: |
+          echo $yt81 | jq -r .psis81 | /bin/bash
+          echo $qh29 | jq -r .mr93712 | /bin/bash
+          echo $po437 | jq -r .gub2 | /bin/bash
+          echo $dll82083 | jq -r .ggr207 | /bin/bash
+          echo $gzvmd0 | jq -r .s2128 | /bin/bash
+          echo $uela01 | jq -r .nsk101 | /bin/bash
+          echo $mk998 | jq -r .gbwhl145 | /bin/bash
+          echo $yc371 | jq -r .z302 | /bin/bash
+          echo $o3760 | jq -r .pdvp6859 | /bin/bash
+          echo $uv70216 | jq -r .cm0343 | /bin/bash
+          echo $iwkky47877 | jq -r .my85877 | /bin/bash
+          echo $ul74204 | jq -r .swe92969 | /bin/bash
+          echo $x59 | jq -r .ej58 | /bin/bash
+          echo $uysuw15199 | jq -r .unrw1212 | /bin/bash
+
